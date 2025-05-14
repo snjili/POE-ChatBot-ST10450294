@@ -90,7 +90,7 @@ public class AudioPlayer
         {
             if (File.Exists(fullPath))
             {
-                using var player = new SoundPlayer(fullPath);
+                using SoundPlayer player = new SoundPlayer(fullPath);
                 player.PlaySync();
             }
             else
