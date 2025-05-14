@@ -66,17 +66,4 @@ cybersecurity-chatbot/
 └── logo.jpg # Logo image for ASCII conversion
 
 
-## Customization
 
-To add new questions and answers:
-
-1. Edit the `CyberSecurityBot` class in Chatbot.cs
-2. Add new entries to the `questions` and `answers` ArrayLists
-
-Example:
-```csharp
-questions.Add("new topic");
-answers.Add(new ArrayList {
-    "Answer 1 for new topic",
-    "Answer 2 for new topic"
-});
